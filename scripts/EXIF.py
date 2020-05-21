@@ -6,7 +6,7 @@ from tkinter.filedialog import askopenfilename
 
 TRAVEL = []
 for e in scandir('../docs/photos'):
-    if 'jpg' or 'JPG' in e.name.lower():
+    if 'jpg' in e.name.lower():
         TRAVEL.append(e.name)
 
 def get_exif(filename):
@@ -25,11 +25,11 @@ def get_exif(filename):
 
     return exif
 
-file = open("globalEXIF.txt", "w")
+file = open("EXIF.txt", "w")
 for e in TRAVEL:
     print(e, file=file)
     try: 
-        datagps = get_exif(e)
+        datagps = get_exif("../docs/photos/" + e)
         print(str(datagps['GPSInfo']), file=file)
     except KeyError as N:
         print("pas de données EXIF")
