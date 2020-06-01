@@ -1,43 +1,47 @@
-body{
+body {
     background-color: #343A40;
     justify-content: center;
 }
 
-.carousel{
+.carousel {
     background-color: #373B3F;
 }
 
-.photo-pay{
+/*Photo Paysage*/
+.photo-pay {
     max-width: 70%;
     max-height: 50%;
     margin: auto;
 }
 
-.photo-por{
+/*Photo Portrait*/
+.photo-por {
     max-width: 35%;
     max-height: 20%;
     margin: auto;
 }
-.container{
+
+.container {
     margin: 10px;
 
 }
 
-#titre{
+#titre {
     text-decoration: underline;
-    
+
 }
 
-.rtn{
+/*BTN retour*/
+.rtn {
     align-content: left;
 }
 
-#description{
+#description {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-a{
+a {
     color: #17A2B8;
 }
