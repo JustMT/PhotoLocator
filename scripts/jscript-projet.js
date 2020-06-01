@@ -1,6 +1,6 @@
 //CARTE//
     //Initialisation de la carte//
-var carte = L.map('maCarte').setView([46.785,2.966], 5);
+var carte = L.map('maCarte').setView([36.74, -45.26], 3);
     //Application des tuiles//
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -10,7 +10,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(carte);
 
 //MARQUEURS//
-    //Table des Lieux//
+    //Bibliothèque des lieux//
 var lieux = {
         //Confluence//
     //"Confluence": { "lat": 45.7406, "lon": 4.8179, "lien": './page_lieu/More.html' },//
@@ -43,6 +43,14 @@ var lieux = {
         //Martinique//
 //    "Baie des Raisinniers": { "lat": 14.73704, "lon": -60.95510, "pays": "Martinique", "ville": "Trinité", "lien": './page_lieu/Raisinniers.html' },
     //"Sainte-Luce": {"lat": 14.46358, "lon": -60.93459, "lien": './page_lieu/More.html' },//
+    
+            ///USA///
+        //Washington//
+    "Capitole des Etats-Unis": { "lat": 38.8905, "lon": -77.0104, "pays": "Etats-Unis", "ville": "Washington DC", "lien": './page_lieu/US_Capitol.html'},
+    "Lincoln Memorial": { "lat": 38.8893, "lon": -77.0499, "pays": "Etats-Unis", "ville": "Washington DC", "lien": './page_lieu/lincoln.html'},
+    "Maison Blanche": { "lat": 38.8986, "lon": -77.0365, "pays": "Etats-Unis", "ville": "Washington DC", "lien": './page_lieu/Whouse.html'},
+        //New York//
+    "Times Square": { "lat": 40.7584, "lon": -73.9854, "pays": "Etats-Unis", "ville": "New York City", "lien": './page_lieu/TSquare.html'},
 /*   
 	"L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },
     "L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },
