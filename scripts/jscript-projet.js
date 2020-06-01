@@ -43,12 +43,7 @@ var lieux = {
     "Maison Blanche": { "lat": 38.8986, "lon": -77.0365, "pays": "Etats-Unis", "ville": "Washington DC", "lien": './page_lieu/Whouse.html'},
         //New York//
     "Times Square": { "lat": 40.7584, "lon": -73.9854, "pays": "Etats-Unis", "ville": "New York City", "lien": './page_lieu/TSquare.html'},
-/*   
-	"L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },
-    "L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },
-    "L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },
-    "L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },
-    "L": { "lat": 000, "lon": 000, "lien": './page_lieu/X.html' },*/
+
 }
     //Boucle d'ajout des marqueurs//
 for (var m in lieux) {
