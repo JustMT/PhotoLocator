@@ -1,6 +1,6 @@
 //CARTE//
     //Initialisation de la carte//
-var carte = L.map('maCarte').setView([36.74, -45.26], 3);
+var carte = L.map('maCarte').setView([38.82, -32.96], 4);
     //Application des tuiles//
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -27,22 +27,14 @@ var lieux = {
     "Château de Versailles": {"lat": 48.807355, "lon": 2.110141, "pays": "France", "ville": "Versailles", "lien": './page_lieu/Versailles.html'},
     "Basilique du Sacré-Coeur de Montmartre": {"lat": 48.884790, "lon": 2.343431, "pays": "France", "ville": "Paris", "lien": './page_lieu/Scoeur.html'},
 	
-		//Nice//
-//	"Panorama Baie des Anges de la Tour Bellanda": { "lat": 43.6942590, "lon": 7.2793798, "pays": "France", "ville": "Nice", "lien": './page_lieu/Baie_anges.html' },
-	
         //Venissieux//
     "Lycée Polyvalent Jacques Brel": { "lat": 45.69367, "lon": 4.87937, "pays": "France", "ville": "Vénissieux", "lien": './page_lieu/Lycée.html' },
-//    "Château d'eau des Minguettes": { "lat": 45.69528, "lon": 4.87453, "pays": "France", "ville": "Vénissieux", "lien": './page_lieu/Cheau.html' },
-//		
+
         //Marseille//
 	"Parc National des Calanques": { "lat": 43.218, "lon": 5.431, "pays": "France", "ville": "Marseille", "lien": './page_lieu/Calanques.html' },
 	
 		//Espagne//
 //	"Musée National d'art de Catalogne": { "lat": 41.371, "lon": 2.152, "pays": "Espagne", "ville": "Barcelone", "lien": './page_lieu/Catalogne.html' },
-    
-        //Martinique//
-//    "Baie des Raisinniers": { "lat": 14.73704, "lon": -60.95510, "pays": "Martinique", "ville": "Trinité", "lien": './page_lieu/Raisinniers.html' },
-    //"Sainte-Luce": {"lat": 14.46358, "lon": -60.93459, "lien": './page_lieu/More.html' },//
     
             ///USA///
         //Washington//
