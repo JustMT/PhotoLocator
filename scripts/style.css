@@ -1,4 +1,4 @@
-#maCarte { 
+#maCarte {
     height: 90vh;
     width: 100%
 }
@@ -17,11 +17,10 @@
     margin-left: -250px;
 }
 
-#name{
+#name {
     text-decoration: underline;
     text-align: center;
 }
 
-#place{
+#place {
     text-align: center;
-}

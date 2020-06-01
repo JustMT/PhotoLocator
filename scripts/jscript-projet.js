@@ -1,6 +1,8 @@
 //CARTE//
 //Initialisation de la carte//
-var carte = L.map('maCarte').setView([46.785, 2.966], 5);
+
+var carte = L.map('maCarte').setView([38.82, -32.96], 4); >>>
+
 //Application des tuiles//
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -11,9 +13,11 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(carte);
 
 //MARQUEURS//
-//Table des Lieux//
+
+//Bibliothèque des lieux//
 var lieux = {
     //Confluence//
+
     "Musée des Confluences": {
         "lat": 45.73262,
         "lon": 4.81818,
@@ -30,6 +34,7 @@ var lieux = {
         "ville": "Lyon",
         "lien": './page_lieu/Bellecour.html'
     },
+
     "Place de la République": {
         "lat": 45.76115,
         "lon": 4.83572,
@@ -78,6 +83,40 @@ var lieux = {
         "ville": "Marseille",
         "lien": './page_lieu/Calanques.html'
     },
+
+
+    ///USA///
+    //Washington//
+    "Capitole des Etats-Unis": {
+        "lat": 38.8905,
+        "lon": -77.0104,
+        "pays": "Etats-Unis",
+        "ville": "Washington DC",
+        "lien": './page_lieu/US_Capitol.html'
+    },
+    "Lincoln Memorial": {
+        "lat": 38.8893,
+        "lon": -77.0499,
+        "pays": "Etats-Unis",
+        "ville": "Washington DC",
+        "lien": './page_lieu/lincoln.html'
+    },
+    "Maison Blanche": {
+        "lat": 38.8986,
+        "lon": -77.0365,
+        "pays": "Etats-Unis",
+        "ville": "Washington DC",
+        "lien": './page_lieu/Whouse.html'
+    },
+    //New York//
+    "Times Square": {
+        "lat": 40.7584,
+        "lon": -73.9854,
+        "pays": "Etats-Unis",
+        "ville": "New York City",
+        "lien": './page_lieu/TSquare.html'
+    },
+
 
 }
 //Boucle d'ajout des marqueurs//
