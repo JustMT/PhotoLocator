@@ -1,8 +1,6 @@
 //CARTE//
 //Initialisation de la carte//
-
-var carte = L.map('maCarte').setView([38.82, -32.96], 4); >>>
-
+var carte = L.map('maCarte').setView([38.82, -32.96], 4);
 //Application des tuiles//
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -13,7 +11,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(carte);
 
 //MARQUEURS//
-
 //Bibliothèque des lieux//
 var lieux = {
     //Confluence//
@@ -25,6 +22,7 @@ var lieux = {
         "ville": "Lyon",
         "lien": './page_lieu/Musée_des_Confluences.html'
     },
+
 
     //Bellecour//
     "Place Bellecour": {
@@ -84,7 +82,6 @@ var lieux = {
         "lien": './page_lieu/Calanques.html'
     },
 
-
     ///USA///
     //Washington//
     "Capitole des Etats-Unis": {
@@ -116,7 +113,6 @@ var lieux = {
         "ville": "New York City",
         "lien": './page_lieu/TSquare.html'
     },
-
 
 }
 //Boucle d'ajout des marqueurs//
