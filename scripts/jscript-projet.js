@@ -13,8 +13,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 //MARQUEURS//
 //Bibliothèque des lieux//
 var lieux = {
-    //Confluence//
 
+    //Confluence//
     "Musée des Confluences": {
         "lat": 45.73262,
         "lon": 4.81818,
@@ -22,7 +22,6 @@ var lieux = {
         "ville": "Lyon",
         "lien": './page_lieu/Musée_des_Confluences.html'
     },
-
 
     //Bellecour//
     "Place Bellecour": {
@@ -84,24 +83,24 @@ var lieux = {
 
     ///USA///
     //Washington//
-    "Capitole des Etats-Unis": {
+    "Capitole des États-Unis": {
         "lat": 38.8905,
         "lon": -77.0104,
-        "pays": "Etats-Unis",
+        "pays": "États-Unis",
         "ville": "Washington DC",
         "lien": './page_lieu/US_Capitol.html'
     },
     "Lincoln Memorial": {
         "lat": 38.8893,
         "lon": -77.0499,
-        "pays": "Etats-Unis",
+        "pays": "États-Unis",
         "ville": "Washington DC",
         "lien": './page_lieu/lincoln.html'
     },
     "Maison Blanche": {
         "lat": 38.8986,
         "lon": -77.0365,
-        "pays": "Etats-Unis",
+        "pays": "États-Unis",
         "ville": "Washington DC",
         "lien": './page_lieu/Whouse.html'
     },
@@ -109,7 +108,7 @@ var lieux = {
     "Times Square": {
         "lat": 40.7584,
         "lon": -73.9854,
-        "pays": "Etats-Unis",
+        "pays": "États-Unis",
         "ville": "New York City",
         "lien": './page_lieu/TSquare.html'
     },

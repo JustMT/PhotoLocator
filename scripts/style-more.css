@@ -7,19 +7,25 @@ body {
     background-color: #373B3F;
 }
 
-/*Photo Paysage*/
+/*Gestion photo caroussel
+------Photo Paysage*/
+
 .photo-pay {
     max-width: 70%;
     max-height: 50%;
     margin: auto;
 }
 
-/*Photo Portrait*/
+/*
+------Photo Portrait*/
+
 .photo-por {
     max-width: 35%;
     max-height: 20%;
     margin: auto;
 }
+
+/*--------------------------------*/
 
 .container {
     margin: 10px;
@@ -31,7 +37,7 @@ body {
 
 }
 
-/*BTN retour*/
+/* Bouton retour carte */
 .rtn {
     align-content: left;
 }
