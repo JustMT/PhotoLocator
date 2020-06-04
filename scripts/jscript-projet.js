@@ -104,6 +104,7 @@ var lieux = {
         "ville": "Washington DC",
         "lien": './page_lieu/Whouse.html'
     },
+    /*
     //New York//
     "Times Square": {
         "lat": 40.7584,
@@ -112,7 +113,7 @@ var lieux = {
         "ville": "New York City",
         "lien": './page_lieu/TSquare.html'
     },
-
+*/
 }
 //Boucle d'ajout des marqueurs//
 for (var m in lieux) {
