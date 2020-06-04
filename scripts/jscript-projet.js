@@ -1,6 +1,6 @@
 //CARTE//
 //Initialisation de la carte//
-var carte = L.map('maCarte').setView([38.82, -32.96], 4);
+var carte = L.map('maCarte').setView([38.82, -32.96], 3);
 //Application des tuiles//
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
