@@ -1,4 +1,5 @@
 import PIL.Image as Im
+import os.path
 from os import scandir
 from PIL.ExifTags import GPSTAGS
 from PIL.ExifTags import TAGS
@@ -8,10 +9,13 @@ TRAVEL = []
 for e in scandir('../docs/photos'):
     if 'jpg' in e.name.lower():
         TRAVEL.append(e.name)
+print(TRAVEL)
 
 def get_exif(filename):
     """associer les tags réels aux données exif"""
-    exif = Im.open(filename).get_exif()
+    image = Im.open(filename)
+    exif = image._getexif()
+    image.close()
 
     if exif is not None:
         for key, value in exif.items():
@@ -22,14 +26,15 @@ def get_exif(filename):
             for key in exif['GPSInfo'].keys():
                 name = GPSTAGS.get(key,key)
                 exif['GPSInfo'][name] = exif['GPSInfo'].pop(key)
-
     return exif
 
 file = open("EXIF.txt", "w")
 for e in TRAVEL:
     print(e, file=file)
-    try: 
-        datagps = get_exif("../docs/photos/" + e)
+    try:
+        chemin = os.path.join(os.path.abspath("../docs/photos/"), e)
+        print(chemin)
+        datagps = get_exif(chemin)
         print(str(datagps['GPSInfo']), file=file)
     except KeyError as N:
         print("pas de données EXIF")
