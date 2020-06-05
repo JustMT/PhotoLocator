@@ -36,7 +36,7 @@ for e in TRAVEL:
         print(chemin)
         datagps = get_exif(chemin)
         print(str(datagps['GPSInfo']), file=file)
-    except KeyError as N:
-        print("pas de données EXIF")
+    except (KeyError, TypeError):
+        print("pas de données EXIF", file=file)
 
 file.close()
