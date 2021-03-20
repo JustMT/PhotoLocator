@@ -24,7 +24,7 @@ var lieux = {
         "lon": 4.81818,
         "pays": "France",
         "ville": "Lyon",
-        "lien": './PC/page_lieu/Musée_des_Confluences.html'
+        "lien": './page_lieu/Musée_des_Confluences.html'
     },
 
     //Bellecour//
@@ -33,7 +33,7 @@ var lieux = {
         "lon": 4.83218,
         "pays": "France",
         "ville": "Lyon",
-        "lien": './PC/page_lieu/Bellecour.html'
+        "lien": './page_lieu/Bellecour.html'
     },
 
     "Place de la République": {
@@ -41,7 +41,7 @@ var lieux = {
         "lon": 4.83572,
         "pays": "France",
         "ville": "Lyon",
-        "lien": './PC/page_lieu/Republique.html'
+        "lien": './page_lieu/Republique.html'
     },
 
     //Paris//
@@ -50,21 +50,21 @@ var lieux = {
         "lon": 2.29453,
         "pays": "France",
         "ville": "Paris",
-        "lien": './PC/page_lieu/Eiffel.html'
+        "lien": './page_lieu/Eiffel.html'
     },
     "Château de Versailles": {
         "lat": 48.807355,
         "lon": 2.110141,
         "pays": "France",
         "ville": "Versailles",
-        "lien": './PC/page_lieu/Versailles.html'
+        "lien": './page_lieu/Versailles.html'
     },
     "Basilique du Sacré-Coeur de Montmartre": {
         "lat": 48.884790,
         "lon": 2.343431,
         "pays": "France",
         "ville": "Paris",
-        "lien": './PC/page_lieu/Scoeur.html'
+        "lien": './page_lieu/Scoeur.html'
     },
 
     //Venissieux//
@@ -73,7 +73,7 @@ var lieux = {
         "lon": 4.87937,
         "pays": "France",
         "ville": "Vénissieux",
-        "lien": './PC/page_lieu/Lycée.html'
+        "lien": './page_lieu/Lycée.html'
     },
 
     //Marseille//
@@ -82,7 +82,7 @@ var lieux = {
         "lon": 5.431,
         "pays": "France",
         "ville": "Marseille",
-        "lien": './PC/page_lieu/Calanques.html'
+        "lien": './page_lieu/Calanques.html'
     },
 
     ///USA///
@@ -92,21 +92,21 @@ var lieux = {
         "lon": -77.0104,
         "pays": "États-Unis",
         "ville": "Washington DC",
-        "lien": './PC/page_lieu/US_Capitol.html'
+        "lien": './page_lieu/US_Capitol.html'
     },
     "Lincoln Memorial": {
         "lat": 38.8893,
         "lon": -77.0499,
         "pays": "États-Unis",
         "ville": "Washington DC",
-        "lien": './PC/page_lieu/lincoln.html'
+        "lien": './page_lieu/lincoln.html'
     },
     "Maison Blanche": {
         "lat": 38.8986,
         "lon": -77.0365,
         "pays": "États-Unis",
         "ville": "Washington DC",
-        "lien": './PC/page_lieu/Whouse.html'
+        "lien": './page_lieu/Whouse.html'
     },
 
     //New York//
@@ -115,7 +115,7 @@ var lieux = {
         "lon": -73.9854,
         "pays": "États-Unis",
         "ville": "New York City",
-        "lien": './PC/page_lieu/TSquare.html'
+        "lien": './page_lieu/TSquare.html'
     },
 
 }
